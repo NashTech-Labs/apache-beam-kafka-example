@@ -37,7 +37,6 @@ Run the following commands in order to start all services in the correct order:
    Run the following command to start a Kafka Consumer, using console interface, subscribed to sampleTopic.
 
     $ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic new_topic --from-beginning
-
 ### How to run the starter project?
 1. To build the service: Open the `Kafka-Integration-With-Apache-Beam`
 2. folder in terminal and run `mvn clean install`.
